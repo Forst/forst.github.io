@@ -1,0 +1,31 @@
+title: Айсберг Пернатого
+description: >-
+  Соединяю всё подряд.
+  Перевожу с человечьего.
+  Летаю на досуге.
+  Антарктиец в свободном плавании.
+url: "https://forst.github.io"
+
+author: Фостер Сноухилл
+twitter_username: ForstPenguin
+github_username:  Forst
+
+show_excerpts: true
+excerpt_separator: "<!--cut-->"
+timezone: UTC
+future: true
+
+minima:
+  date_format: "%Y-%m-%d %H:%M UTC"
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
